@@ -11,15 +11,12 @@
   },
   "dependencies": {
     "@react-navigation/native": "^6.1.6",
-    "@react-navigation/native-stack": "^6.9.12",
+    "node-nlp": "^4.27.0",
     "react": "18.2.0",
     "react-native": "0.71.8",
-    "react-native-flash-message": "^0.4.1",
-    "react-native-get-location": "^3.0.1",
-    "react-native-maps": "^1.7.1",
-    "react-native-maps-directions": "^1.9.0",
     "react-native-safe-area-context": "^4.5.3",
-    "react-native-screens": "^3.20.0"
+    "react-native-screens": "^3.20.0",
+    "wink-pos-tagger": "^2.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
