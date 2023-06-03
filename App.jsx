@@ -1,13 +1,12 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import PartOfSpeechDetector from './src/components/CheckSentence'
-import CheckSentence from './src/components/CheckSentence'
+import {View, Text} from 'react-native';
+import React from 'react';
+
+import Demo from './src/components/Demo';
 
 const App = () => {
   return (
-    // <PartOfSpeechDetector/>
-    <CheckSentence/>
-  )
-}
+    <Demo/>
+  );
+};
 
-export default App
+export default App;

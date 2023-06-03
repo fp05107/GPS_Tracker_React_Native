@@ -35,50 +35,50 @@ const CheckSentence = () => {
   const handlePress = myTitle => {
     if (flag) {
       if (myTitle === 'Nouns') {
-        console.log(tagger.tagSentence(myArr.join(' ')));
+        // console.log(tagger.tagSentence(myArr.join(' ')));
         setFlag(false);
         setNoun(true);
-        console.log(noun);
+        // console.log(noun);
         setFlag(true);
       } else if (myTitle === 'Verbs') {
         setFlag(false);
         setVerb(true);
-        console.log(verb);
+        // console.log(verb);
         setFlag(true);
       } else if (myTitle === 'Adjectives') {
         setFlag(false);
         setAdjective(true);
-        console.log(adjective);
+        // console.log(adjective);
         setFlag(true);
       } else if (myTitle === 'Adverbs') {
         setFlag(false);
         setAdverb(true);
-        console.log(adverb);
+        // console.log(adverb);
         setFlag(true);
       } else if (myTitle === 'Pronoun') {
         setFlag(false);
         setPronoun(true);
-        console.log(pronoun);
+        // console.log(pronoun);
         setFlag(true);
       } else if (myTitle === 'Preposition') {
         setFlag(false);
         setPreposition(true);
-        console.log(preposition);
+        // console.log(preposition);
         setFlag(true);
       } else if (myTitle === 'Conjuction') {
         setFlag(false);
         setConjuction(true);
-        console.log(conjuction);
+        // console.log(conjuction);
         setFlag(true);
       } else if (myTitle === 'Determiner') {
         setFlag(false);
         setDeterminer(true);
-        console.log(determiner);
+        // console.log(determiner);
         setFlag(true);
       } else if (myTitle === 'Interjection') {
         setFlag(false);
         setInterjection(true);
-        console.log(interjection);
+        // console.log(interjection);
         setFlag(true);
       } else {
       }
